@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimatedCard</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+ 
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  transition: all ease 1s;
+}
+
+.center {
+  size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.frame:hover{
+  box-shadow: 10px 15px 20px 0 rgba(223, 156, 81, 0.932);
+}
+ 
+p{
+font-size: 50px;
+}
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="center">
+              <p>Happy coding :)</p>
+        </div>
+      </div>
+</body>
+</html>
